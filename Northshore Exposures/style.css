@@ -1,0 +1,73 @@
+body{
+	background: url("http://media-cache-ak0.pinimg.com/originals/62/be/92/62be92da03088c315ce11e546e5bcf7e.jpg");
+	background-repeat: repeat-x;
+	overflow-y: scroll;
+	background-position: right top;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: arial, sans-serif;
+
+}
+
+#nav{
+	background-color: #222;
+	
+	}
+#nav_wrapper {
+	left: 0;
+	top: 15px;
+	width: 100%;
+	height: 100px;
+	text-align: left;
+}
+
+#nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+a {
+	display: block;
+	width: 60px;
+
+}
+#nav ul li {
+	display: inline-block;
+	padding: 20px;
+}
+nav ul li:hover{
+	background-color: #333;
+}
+#nav ul li a{
+	text-decoration: none;
+	color: #ccc;
+	padding: 8px 8px 8px 8px;
+}
+#nav ul li a:visited {
+	color: #ccc;
+	display: block;
+	padding: 15px;
+	text-decoration: none;
+}
+#nav ul li a:hover{
+	color: #ccc;
+	background-color: #222;
+	text-decoration: none;
+}
+h1{
+	position: absolute;
+	text-align: left;
+	font-family: arial, sans-serif;
+	color: #222;
+	font-size: 50px;
+	margin-left: 560px;
+	margin-top: 150px;
+font-weight: bold;
+transform: rotate(25deg);
+	-ms-transform: rotate(25deg);
+	-webkit-transform: rotate(25deg);
+}
+h1-cont {
+
+}
